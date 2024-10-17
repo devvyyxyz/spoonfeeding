@@ -1,0 +1,107 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff; /* White background */
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #d9534f; /* Light red accent color */
+}
+
+p {
+  font-size: 1.4rem;
+  color: #555555;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: rgba(255, 0, 0, 0.05); /* Very light red background */
+  border-radius: 10px;
+  border: 1px solid rgba(217, 83, 79, 0.2); /* Light red border */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: rgba(255, 0, 0, 0.1); /* Slight red tint */
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+ul li:hover {
+  background-color: rgba(255, 0, 0, 0.15);
+}
+
+button {
+  background-color: #d9534f; /* Light red button */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #c9302c; /* Darker red on hover */
+  transform: translateY(-3px);
+}
+
+.hidden {
+  display: none;
+}
+
+.spoiler-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.spoiler-section p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+a {
+  color: #d9534f; /* Light red links */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #c9302c; /* Darker red on hover */
+}
