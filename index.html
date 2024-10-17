@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fullscreen GIF Example</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden; /* Prevent scrollbars */
-        }
-        img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Ensures the GIF covers the entire screen */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>No Spoon Feeding</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    Stop spoonfeeding
-    <img src="feed.gif" alt="Animated GIF">
+  <header>
+    <h1>No Spoon Feeding</h1>
+    <p>Spoon-feeding helps no one. Let’s encourage learning and problem-solving instead!</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Common Examples of Spoon-Feeding</h2>
+      <ul>
+        <li>"Can you just give me the code?"</li>
+        <li>"What’s the exact solution to this problem?"</li>
+        <li>"I don’t want to research, just tell me!"</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Better Approaches</h2>
+      <ul>
+        <li>"Can you point me to some resources to solve this?"</li>
+        <li>"What’s the concept behind this problem?"</li>
+        <li>"I’ve tried X and Y, but I’m stuck on Z, can you help?"</li>
+      </ul>
+    </section>
+
+    <section class="spoiler-section">
+      <h2>Want the Answer Anyway?</h2>
+      <button id="spoiler-button">Reveal Answer</button>
+      <p id="spoiler-text" class="hidden">Remember, learning happens when you figure things out yourself!</p>
+    </section>
+
+    <section>
+      <h2>Resources for Self-Learning</h2>
+      <p>Check out these awesome places to learn:</p>
+      <ul>
+        <li><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a></li>
+        <li><a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a></li>
+        <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 No Spoon Feeding. Learn and grow!</p>
+  </footer>
+
+  <script src="js/interactions.js"></script>
 </body>
 </html>
